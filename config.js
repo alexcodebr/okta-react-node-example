@@ -11,7 +11,7 @@ if (fs.existsSync(TESTENV)) {
   });
 }
 
-var ISSUER = process.env.ISSUER || 'https://{yourOktaDomain}.com/oauth2/default';
+var ISSUER = process.env.ISSUER || 'https://dev-56292165.okta.com/oauth2/default';
 var CLIENT_ID = process.env.CLIENT_ID || '{clientId}';
 var CLIENT_SECRET = process.env.CLIENT_SECRET || '{clientSecret}';
 var SPA_CLIENT_ID = process.env.SPA_CLIENT_ID || '{spaClientId}';
